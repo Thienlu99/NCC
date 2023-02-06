@@ -1,0 +1,36 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .app__content {
+        padding-top: 8px;
+    }
+    .content {
+        padding: 38px 50px;
+    }
+}
+/* Tablet */
+@media (min-width:740px) and (max-width: 1023px) {
+    .content {
+        padding: 38px 20px;
+    }
+    .footer__bottom{
+        text-align: center;
+        padding: 30px 0;
+    }
+
+}
+
+/* Mobile */
+@media (max-width:739px) {
+    .app__content {
+        margin: 0 5px;
+        padding-top: 8px;
+    }
+    .content {
+        padding: 38px 20px;
+    }
+    .footer__bottom{
+        text-align: center;
+        padding: 30px 0;
+    }
+}
+
